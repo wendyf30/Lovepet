@@ -1,1 +1,166 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003D3D;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #003D3D;
+}
+
+a {
+    color: #003D3D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #008B8B;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Donation Section */
+#donate {
+    background-color: #E8F8F8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.donate-button {
+    display: inline-block;
+    background-color: #003D3D;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.donate-button:hover {
+    background-color: #008B8B;
+}
+
+/* Pets Section */
+#pets {
+    background-color: #F4F4F4;
+}
+
+.pet-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pet-option {
+    text-align: center;
+}
+
+.pet-option img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pet-option a {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #003D3D;
+}
+
+.pet-option a:hover {
+    color: #008B8B;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact a {
+    font-size: 18px;
+    color: #003D3D;
+}
+
+#contact a:hover {
+    color: #008B8B;
+}
+
+/* Footer */
+footer {
+    background-color: #003D3D;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
